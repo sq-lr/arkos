@@ -13,7 +13,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from config_module.loader import config
 from agent_module.agent import Agent
 from state_module.state_handler import StateHandler
-from memory_module.letta_memory import Memory
+from memory_module.memory import Memory
 from model_module.ArkModelNew import ArkModelLink, UserMessage, SystemMessage, AIMessage
 from tool_module.tool_call import MCPToolManager
 from tool_module.token_store import UserTokenStore

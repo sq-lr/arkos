@@ -97,8 +97,6 @@ This starts the SGLang server on port 30000 using Docker and GPU. Wait for "serv
 bash model_module/run_tei.sh
 ```
 
-LETTA_PG_URI="postgresql+pg8000://letta:letta@localhost:5433/letta?sslmode=disable" letta server
-
 This starts the Huggingface-TEI server on port 4444 using Docker and GPU. Wait for "server started" messages 
 
 ### Setting .env Variables 
